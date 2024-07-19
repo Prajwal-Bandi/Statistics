@@ -59,11 +59,11 @@ CREATE TABLE Members (
 );
 
 #To Insert values into table
-insert into Members values(1,'Prajwal','Bandi',9731633393,'Kalaburgi');
-insert into Members values(2,'Jyoti','Yakapur',7204956090,'Banglore');
-insert into Members values(3,'Bhagyashri','Bandi',9513239142,'Kalaburgi');
-insert into Members values(4,'Raju','Bandi',7349675330,'Banglore');
-insert into Members values(5,'Sharan','Yakapur',9738551276,'Banglore');
+insert into Members values(1,'Prajwal','Bandi',8586559,'Kalaburgi');
+insert into Members values(2,'Jyoti','Yakapur',585654,'Banglore');
+insert into Members values(3,'Bhagyashri','Bandi',5646,'Kalaburgi');
+insert into Members values(4,'Raju','Bandi',546666666,'Banglore');
+insert into Members values(5,'Sharan','Yakapur',6854968745,'Banglore');
 select * from Members order by S_no;
 
 
@@ -100,7 +100,7 @@ drop database College;
  
  set sql_safe_updates=0;
  
-insert into Members values(7,'Sharan','Yakapur',9738551276,'Banglore',' ');
+insert into Members values(7,'Sharan','Yakapur',4579476,'Banglore',' ');
 
 delete from Members where S_no=7;
 
